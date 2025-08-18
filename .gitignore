@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 # Local .terraform directories
 .terraform/
+=======
+#  Local .terraform directories
+**/.terraform/*
+>>>>>>> 1a8c9c7 (update 3)
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
 
+<<<<<<< HEAD
 # Crash log files
 crash.log
 crash.*.log
@@ -35,3 +41,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+=======
+# .tfvars files
+*.tfvars
+
+# .tfplan files
+*.tfplan
+
+# .pem files
+*.pem
+>>>>>>> 1a8c9c7 (update 3)
